@@ -1,21 +1,11 @@
 
 package com.spadestep.burngame.spaceships;
 
-public abstract class Spaceship
+import com.spadestep.burngame.VisualGameObject;
+
+public abstract class Spaceship extends VisualGameObject 
 {
     private int velocity;
-    private int xPosition;
-    private int yPosition;
-    
-    public int getXPostition()
-    {
-        return xPosition;
-    }
-    
-    public int getYPosition()
-    {
-        return yPosition;
-    }
     
     public int getVelocity()
     {

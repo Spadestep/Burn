@@ -19,11 +19,7 @@ public class BurnGame extends ApplicationAdapter
     @Override
     public void create()
     {
-        batch = new SpriteBatch();
-        font = new BitmapFont();
-        font.setColor(Color.RED);
-        texture = new Texture(Gdx.files.internal("images\\sprites\\spaceships\\hero_ship\\hero_ship_s.png"));
-        sprite = new Sprite(texture);
+
     }
 
     @Override

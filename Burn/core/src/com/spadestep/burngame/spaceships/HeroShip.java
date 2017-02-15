@@ -5,6 +5,8 @@
  */
 package com.spadestep.burngame.spaceships;
 
+import com.badlogic.gdx.graphics.Pixmap;
+
 /**
  *
  * @author 17bbrotzman
@@ -12,6 +14,12 @@ package com.spadestep.burngame.spaceships;
 public class HeroShip extends Spaceship
 {
     public HeroShip()
+    {
+        pixmap = new Pixmap(20, 200, Pixmap.Format.RGBA8888);
+    }
+    
+    @Override
+    public void render()
     {
         
     }
