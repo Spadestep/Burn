@@ -18,6 +18,21 @@ public class HeroShip extends Spaceship
         pixmap = new Pixmap(20, 200, Pixmap.Format.RGBA8888);
     }
     
+    //Spaceship overrides
+    @Override
+    public void rotate()
+    {
+        
+    }
+    
+    @Override
+    public void move()
+    {
+        
+    }
+    
+    //VGO overrides
+    
     @Override
     public void render()
     {
